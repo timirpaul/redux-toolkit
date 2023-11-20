@@ -1,8 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { useEffect } from "react";
 
 const initialState = {
-  value: []
+  value: [],
 };
 
 const addDataSlice = createSlice({
@@ -20,8 +19,8 @@ const addDataSlice = createSlice({
       //  state.value.age = age;
       // state.value.name = name;
       state.value = updatedValues;
-    }
-  }
+    },
+  },
 });
 
 export const { newData } = addDataSlice.actions;
