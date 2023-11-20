@@ -7,7 +7,7 @@ import { newData } from "./features/data/addData";
 const LoginPage = () => {
   let data = [
     {
-      name: "data1",
+      name: "newdata1",
       age: 21,
     },
   ];
