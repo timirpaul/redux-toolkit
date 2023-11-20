@@ -10,6 +10,10 @@ const LoginPage = () => {
       name: "newdata1",
       age: 21,
     },
+    {
+      name: "newdata2",
+      age: 25,
+    }
   ];
   const isLogin = useSelector((state) => state.loginchecker.value);
   const datafromredux = useSelector((state) => state.addData.value);
