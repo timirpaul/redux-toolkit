@@ -8,8 +8,8 @@ const LoginPage = () => {
   let data = [
     {
       name: "data1",
-      age: 22
-    }
+      age: 21,
+    },
   ];
   const isLogin = useSelector((state) => state.loginchecker.value);
   const datafromredux = useSelector((state) => state.addData.value);
@@ -23,7 +23,7 @@ const LoginPage = () => {
   // const res = { name: "res", age: "2" };
   const res = [
     { name: "res", age: "1" },
-    { name: "res1", age: "2" }
+    { name: "res1", age: "2" },
   ];
 
   useEffect(() => {
