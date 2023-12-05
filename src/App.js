@@ -26,9 +26,12 @@ export default function App() {
     console.log("clicked!!");
   }, 2000);
 
+  let arr = ["a", "v"];
+  arr = ["z", ...arr, "k"];
   return (
     <div className="App">
       <h1>hello</h1>
+      <h3>Arr : {arr}</h3>
       <Child />
       <div id="parent">
         parent
